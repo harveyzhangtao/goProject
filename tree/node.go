@@ -18,17 +18,6 @@ func (node *TreeNode) Stra()  {
 	node.Left.Stra()
 	node.Print()
 	node.Right.Stra()
-
-	//var root tree.TreeNode
-	//root = treeNode{value:3}
-	//root.left = &treeNode{}
-	//root.right = &treeNode{5, nil, nil}
-	//root.right.left = new(treeNode)
-	//root.left.right = create(2)
-	//root.left.setValue(4)
-	////root.left.print()
-	////fmt.Println(root)
-	//root.stra()
 }
 
 func (node TreeNode) Print()  {
