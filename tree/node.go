@@ -3,15 +3,15 @@ package tree
 import "fmt"
 
 
-func create( value int) *TreeNode  {
-	return &TreeNode{Value:value}
+func Create( value int) *Node  {
+	return &Node{Value:value}
 }
 //为结构体定义方法
-func (node *TreeNode) SetValue ( value int)  {
+func (node *Node) SetValue ( value int)  {
 	node.Value = value
 }
 
-func (node *TreeNode) Stra()  {
+func (node *Node) Stra()  {
 	if node == nil{
 		return
 	}
@@ -20,11 +20,11 @@ func (node *TreeNode) Stra()  {
 	node.Right.Stra()
 }
 
-func (node TreeNode) Print()  {
+func (node Node) Print()  {
 	fmt.Print(node.Value)
 }
 
-type TreeNode struct {
+type Node struct {
 	Value int
-	Left, Right *TreeNode
+	Left, Right *Node
 }
