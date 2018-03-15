@@ -1,8 +1,8 @@
 package main
 
 import (
-	"goProject/tree"
 	"fmt"
+	"goProject/tree"
 	"goProject/tree/queue"
 )
 
@@ -31,14 +31,15 @@ func main() {
 	q.Pop()
 
 	fmt.Println(q.IsEmpty())
-
+	q.Push(1212)
+	fmt.Println(q.Pop())
 }
 
 type MyTreeNode struct {
 	node *tree.Node
 }
 
-func (myNode * MyTreeNode) postOrder()  {
+func (myNode *MyTreeNode) postOrder() {
 	if myNode == nil || myNode.node == nil {
 		return
 	}
