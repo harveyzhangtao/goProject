@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="147aeb91-b814-477a-afe1-c47e00dd346a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/retriever/main.go" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/tree/entry/entry.go" afterPath="$PROJECT_DIR$/tree/entry/entry.go" />
-      <change beforePath="$PROJECT_DIR$/tree/node.go" afterPath="$PROJECT_DIR$/tree/node.go" />
-      <change beforePath="$PROJECT_DIR$/tree/queue/queue.go" afterPath="$PROJECT_DIR$/tree/queue/queue.go" />
-    </list>
+    <list default="true" id="147aeb91-b814-477a-afe1-c47e00dd346a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +26,8 @@
       <file leaf-file-name="adder.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-293">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="-270">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
               <folding>
                 <element signature="e#14#57#0" expanded="true" />
               </folding>
@@ -73,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="node.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree/node.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -85,21 +79,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mockretiever.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retriever/mock/mockretiever.go">
+      <file leaf-file-name="defer.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/errhanding/defer/defer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="375">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fib.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functional/fib/fib.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strings.go">
+      <file leaf-file-name="mockretiever.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retriever/mock/mockretiever.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -162,6 +168,8 @@
         <option value="$PROJECT_DIR$/tree/queue/queue.go" />
         <option value="$PROJECT_DIR$/functional/adder/adder.go" />
         <option value="$PROJECT_DIR$/tree/node.go" />
+        <option value="$PROJECT_DIR$/functional/fib/fib.go" />
+        <option value="$PROJECT_DIR$/errhanding/defer/defer.go" />
       </list>
     </option>
   </component>
@@ -219,6 +227,17 @@
             <path>
               <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="errhanding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="errhanding" type="462c0819:PsiDirectoryNode" />
+              <item name="defer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
               <item name="functional" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,19 +249,8 @@
             <path>
               <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="goProject" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goProject" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="entry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goProject" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="functional" type="462c0819:PsiDirectoryNode" />
+              <item name="fib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build node.go">
+  <component name="RunManager" selected="Go Build.go build defer.go">
     <configuration name="go build adder.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="goProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -286,20 +294,20 @@
       <filePath value="$PROJECT_DIR$/functional/adder/adder.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="goProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/errhanding/defer/defer.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build entry.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="goProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/tree/entry/entry.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="go build gofile.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="goProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/struct/gofile.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -319,19 +327,19 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build gofile.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build entry.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build node.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build adder.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build entry.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build node.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build adder.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build defer.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build node.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build adder.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build entry.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build gofile.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build defer.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build node.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build adder.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build entry.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -615,16 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/entry/entry.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -649,6 +647,42 @@
           <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional/fib/fib.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fib.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errhanding/defer/defer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
