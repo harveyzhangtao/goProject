@@ -13,25 +13,28 @@ func main() {
 	//for k,v := range m{
 	//	fmt.Println(k, v)
 	//}
- //delete(m,"name2")
+	//delete(m,"name2")
 	//fmt.Println(m,m2)
 
 	fmt.Println(getString("abcdca一二二三"))
+	fmt.Println(getString("abcdca一"))
+
 }
 
-func getString(str string) int  {
-	last  := make(map[rune]int)
+func getString(str string) int {
+	last := make([]int, 0xffff)
+	for i := range last {
+		last[i] = -1
+	}
 	start := 0
 	maxLeng := 0
-	c := []rune(str);
-	fmt.Println(c)
 
-	for i, ch := range []rune(str){
-		lastI,ok  := last[ch];
-		if  ok && lastI >= start {
-			start = lastI+1
+	for i, ch := range []rune(str) {
+
+		if lastI := last[ch]; lastI != -1 && lastI >= start {
+			start = lastI + 1
 		}
-		if i - start + 1 > maxLeng {
+		if i-start+1 > maxLeng {
 			maxLeng = i - start + 1
 		}
 		last[ch] = i
@@ -39,5 +42,5 @@ func getString(str string) int  {
 	}
 	//fmt.Println(last)
 
-	return  maxLeng
+	return maxLeng
 }
