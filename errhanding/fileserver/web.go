@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
+	_ "net/http/pprof"
 	"os"
 
 	"goProject/errhanding/fileserver/filelisting"
